@@ -1,0 +1,133 @@
+* {
+    font-family: 'Lora', serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav{
+    background-color:transparent;
+    display: flex;
+    justify-content: right;
+    position: sticky;
+    top: 0px;
+  }
+  
+  nav ul{
+    display: flex;
+  }
+  
+  nav ul li a{
+    justify-content: space-evenly;
+    margin: 10px;
+    color: rgb(65, 10, 10);
+    text-decoration: none;
+    font-weight: bolder;
+    border: 1px solid rgb(88, 34, 34);
+    border-radius: 10px;
+    border-width: 2PX;
+  }
+  
+  a:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 242, 255);
+  }
+
+  #bg{
+    height: 500px;
+  }
+  .bg{
+    position: absolute;
+    width: 100%;
+    height: 520px;
+    top: 0px;
+  }
+  .overlay h1{
+    position: absolute;
+    top: 200px;
+    left: 170px;
+  }
+  .overlay h5{
+    position: absolute;
+    top: 280px;
+    left: 170px; 
+  }
+
+  #lm{
+    color: rgb(110, 41, 29);
+    font-family: cursive;
+    font-weight: 1000;
+    font-size: xx-large;
+    margin-top: 80px;
+    font-weight: bolder;
+    }
+  h5{
+    color: rgb(182, 69, 69);
+    margin-top: 60px;
+    font-size: larger;
+  }
+  .dn{
+    color: brown;
+    border: 2px solid ;
+    border-radius: 20px;
+    padding: 10px;
+    border-width: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 380px;
+    left: 200px;
+  }
+ 
+
+  table{
+    background-color: rgb(65, 56, 61);
+    border: 0px;
+    text-align: left;
+    width: 600px;
+  }
+  .tbl{
+    position: absolute;
+    top: 500px;
+    left: 380px;
+  }
+button{
+    width: 90px;
+    height: 50px;
+    color: rgbrgb(28, 39, 237);
+    background-color: rgb(37, 29, 37);
+}
+button:hover{
+    color: rgb(20, 2, 19);
+    background-color: rgb(243, 243, 247);
+}
+.row{
+  margin-top: 500px;
+  width: 100%;
+  height: 500px;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+
+.col{
+  
+  width: 300px;
+  height: 400px;
+  margin-left: 10px;
+}
+
+img{
+  height: 200px;
+  padding: 10px;
+  
+}
+
+.tv{
+  position: relative;
+  font-size: 50px;
+  text-align: center;
+  top: 550px;
+  left: 50px;
+  color: rgb(78, 11, 11);
+}
+
